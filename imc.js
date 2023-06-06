@@ -29,7 +29,7 @@ while (true) {
 }
 
 function calculaImc(peso, altura) {
-  return peso / altura ** 2;
+  return (peso / altura ** 2);
 }
 
 let imc = calculaImc(peso, altura);
